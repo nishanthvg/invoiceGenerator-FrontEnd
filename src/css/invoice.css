@@ -1,0 +1,54 @@
+.createInvoice {
+    background: rgb(204,204,204); 
+  }
+.page {
+background: white;
+display: block;
+margin: 0 auto;
+margin-bottom: 0.5cm;
+box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+width: 21cm;
+height: 29.7cm;
+padding: 10px;
+}
+
+.page_header_address{
+    width: 50%;
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.logo{
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 10px;
+    width: 40%;
+}
+p{
+    margin-bottom: 3px;
+}
+
+.page_middle{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.page_middle_to{
+    float: left;
+}
+
+.page_middle_to_input{
+    width: 300px;
+    vertical-align: text-top;
+    height: auto;
+}
+
+.page_middle_date{
+    float: right;
+    padding-right: 50px;
+}
+
+h1{
+    text-align: center;
+}
