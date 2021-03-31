@@ -1,9 +1,9 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import "../css/invoice.css"
 import BillingTable from './BillingTable'
 import PageHeader from "./PageHeader"
 
-function createInvoice() {
+function CreateInvoice() {
     return (
         <div className ="page" >
             <PageHeader />
@@ -12,4 +12,4 @@ function createInvoice() {
     )
 }
 
-export default createInvoice 
+export default CreateInvoice 

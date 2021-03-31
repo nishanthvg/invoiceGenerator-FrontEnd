@@ -6,12 +6,13 @@ import { toUpdateBill } from '../action/cloudAction'
 export const PrintButton = ({billingList}) => {
     const dispatch = useDispatch()
     const state = useSelector(state => state.invoice)
-    const handlePrintButton = () => {
+    const HandlePrintButton = async () => {
         dispatch(toPrint())
         handleUpdateList()
         updateViewInvoiceList()
     }
     const handleUpdateList = () => {
+
         dispatch(toUpdateBillingList(billingList))
     }
 
@@ -34,8 +35,7 @@ export const PrintButton = ({billingList}) => {
     }
     return (
         <div>
-            <button onClick = {handlePrintButton}>Print</button>
-
+            <button onClick = {HandlePrintButton}>Create</button>
         </div>
     )
 }
